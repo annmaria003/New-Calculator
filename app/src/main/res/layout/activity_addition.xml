@@ -7,7 +7,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <TextView
-        android:text="CALCULATOR"
+        android:text="ADDITION"
         android:textSize="30sp"
         android:textStyle="bold"
         android:gravity="center"
@@ -16,44 +16,59 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/add"
-        android:text="+"
-        android:textSize="25sp"
-        android:background="#A482DE"
+    <TextView
+        android:text="NUMBER 1"
         android:textColor="#000609"
         android:layout_margin="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+    <EditText
+        android:hint="Enter first number"
+        android:id="@+id/num1"
+        android:inputType="number"
+        android:backgroundTint="#00060D"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/subtract"
-        android:text="-"
-        android:textSize="25sp"
-        android:background="#A482DE"
+    <TextView
+        android:text="NUMBER 2"
         android:textColor="#000609"
         android:layout_margin="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/multiply"
-        android:text="*"
-        android:textSize="25sp"
-        android:background="#A482DE"
-        android:textColor="#000609"
-        android:layout_margin="10dp"
+    <EditText
+        android:hint="Enter second number"
+        android:id="@+id/num2"
+        android:inputType="number"
+        android:backgroundTint="#00060D"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/divide"
-        android:text="/"
-        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addition"
+        android:textSize="20sp"
         android:background="#A482DE"
         android:textColor="#000609"
         android:layout_margin="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:text="ADD"/>
 
+    <TextView
+        android:id="@+id/resToDisp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text=""/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/back1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:background="#A482DE"
+        android:textColor="#000609"
+        android:layout_margin="10dp"
+        android:text="BACK TO MENU"/>
 </LinearLayout>

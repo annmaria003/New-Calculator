@@ -42,7 +42,6 @@ public class Addition extends AppCompatActivity {
 
                 getNum1=ea1.getText().toString();
                 getNum2=ea2.getText().toString();
-
                 Num1=Integer.parseInt(getNum1);
                 Num2=Integer.parseInt(getNum2);
 

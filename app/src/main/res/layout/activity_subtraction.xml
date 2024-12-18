@@ -1,0 +1,73 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:text="SUBTRACTION"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#000609"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:text="NUMBER 1"
+        android:textColor="#000609"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:hint="Enter first number"
+        android:id="@+id/num1"
+        android:textColor="#000609"
+        android:inputType="number"
+        android:backgroundTint="#00060D"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000609"
+        android:text="NUMBER 2"/>
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:backgroundTint="#00060D"
+        android:hint="Enter second number"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/subtraction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:background="#A482DE"
+        android:textColor="#000609"
+        android:layout_margin="10dp"
+        android:text="SUBTRACT"/>
+
+    <TextView
+        android:id="@+id/resToDisp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text=""/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/BTL2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:background="#A482DE"
+        android:textColor="#000609"
+        android:layout_margin="10dp"
+        android:text="BACK TO MENU"/>
+</LinearLayout>
